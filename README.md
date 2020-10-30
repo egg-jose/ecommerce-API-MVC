@@ -16,7 +16,6 @@ API that simulates a virtual commerce store so that a user registers, logs in an
 - Babel
 - CircleCI
 - JsDocs
-- typeorm
 
 ## Requirements
 - Install Nodejs
