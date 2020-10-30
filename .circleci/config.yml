@@ -7,6 +7,10 @@ jobs:
       name: node/default
     steps:
       - checkout
+      - r
+      - run:
+          command: yarn install
+          name: Run YARN install
       - run:
           command: yarn run lint
           name: Run YARN ESLINT
